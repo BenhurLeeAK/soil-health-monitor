@@ -52,6 +52,7 @@ Details and the to-do list are in [docs/07-status-and-roadmap.md](docs/07-status
 ```
 firmware/soil_node_sim/    Simulated node: fake sensor values, real Wi-Fi, API, LCD, buttons, buzzer
 firmware/soil_node_api/    Real-sensor firmware template (Modbus RS485), not yet tested
+cad/                       SolidWorks enclosure files (assembly and parts), see cad/README.md
 tools/mock_esp_server.py   PC mock of the node API for app development
 docs/                      Hardware, wiring, firmware, API contract, app, testing, status
 docs/photos/               Photos of the build

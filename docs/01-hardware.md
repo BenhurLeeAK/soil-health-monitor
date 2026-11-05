@@ -19,6 +19,8 @@ Sensor datasheets: the ESP32-S3-A7670E-4G board PDF, the ESP32-S3 datasheet and 
 
 ## Enclosure
 
+CAD source files are in [`../cad`](../cad/README.md).
+
 3D-printed white box with a green carry handle. Two shelves: electronics on the upper shelf (board, RS485 modules, converters), battery holder and power module on the lower shelf. LCD, two buttons and the buzzer are on the lid. The soil probe sits in a printed holder on one side, the air sensor box on the other.
 
 | | |
