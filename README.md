@@ -4,7 +4,34 @@ A battery-powered soil monitoring node built on a Waveshare ESP32-S3 board, plus
 
 The node measures soil moisture, soil temperature, pH, N/P/K, air temperature and humidity. It shows them on a 16x2 LCD and serves them as JSON. The phone app shows live values, a crop suggestion, the phone's GPS position on a map, analytics and CSV export. No internet or SIM is needed in the field.
 
-![Enclosure top view](docs/photos/enclosure-top-view.jpg)
+![Soil health monitor node](docs/photos/enclosure-open-angle.jpg)
+
+## The product
+
+The complete node: a 3D-printed enclosure with a carry handle, an LCD and two page buttons on the lid, the soil probe on one side and the air temperature/humidity sensor on the other.
+
+| | |
+|---|---|
+| ![Front](docs/photos/enclosure-front-logo.jpg) | ![Back](docs/photos/enclosure-back.jpg) |
+| **Front.** Logo panel, handle, LCD and buttons on the lid. | **Back.** Cables from the probes are tied down on both sides. |
+| ![Air sensor side](docs/photos/air-sensor-side.jpg) | ![Soil probe side](docs/photos/soil-probe-side.jpg) |
+| **Air side.** JXBS-3001-TH-RS temperature and humidity transmitter. | **Soil side.** Soil probe in its holder, power switch below it. |
+
+Lid: 16x2 LCD, two page buttons and a buzzer.
+
+![Lid, top view](docs/photos/enclosure-top-view.jpg)
+
+### Inside
+
+Two shelves. The upper shelf holds the ESP32-S3 board, RS485 modules and converters. The lower shelf holds the 18650 battery holder and the power module.
+
+| | |
+|---|---|
+| ![Open, two shelves](docs/photos/internals-two-shelves.jpg) | ![Internals close-up](docs/photos/internals-closeup.jpg) |
+| ![Waveshare ESP32-S3 board](docs/photos/waveshare-board-and-battery.jpg) | ![RS485 modules and buck converter](docs/photos/rs485-modules-and-buck.jpg) |
+| ![Board on the bench](docs/photos/bench-board-and-lcd.jpg) | ![Perfboard underside](docs/photos/perfboard-underside.jpg) |
+
+More build photos and the parts list are in [docs/01-hardware.md](docs/01-hardware.md).
 
 ## Status (5 Nov 2026)
 
