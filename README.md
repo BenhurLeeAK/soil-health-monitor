@@ -33,17 +33,18 @@ Two shelves. The upper shelf holds the ESP32-S3 board, RS485 modules and convert
 
 More build photos and the parts list are in [docs/01-hardware.md](docs/01-hardware.md).
 
-## Status (5 Nov 2026)
+## Status (6 Nov 2026)
+
+The node firmware with the real sensors is implemented and working, and the prototype has been handed over to the supervisor. The working real-sensor sketch is **not in this repository yet**; it will be added as `firmware/soil_node/`.
 
 | Part | State |
 |---|---|
 | Enclosure, LCD, 2 buttons, buzzer, power | Built |
-| Simulated node firmware (`soil_node_sim`) | Works on the board. The app connects to it. |
-| Air sensor (JXBS-3001-TH-RS) | Works on the bench (RX 5, TX 6, address 1) |
-| NPK sensor (JXBS-3001-NPK-RS) | No valid reply yet. Being debugged. |
-| Soil sensor (ZTS-3001-TR-THPH-N01) | Not yet tested on the bench |
-| Real-sensor firmware (`soil_node_api`) | Written, never compiled or run on hardware |
+| Real-sensor node firmware | Implemented and working (reported 6 Nov 2026). Source to be added to this repo. |
+| Simulated node firmware (`soil_node_sim`) | Works on the board. Kept for app development and demos. |
+| Real-sensor template (`soil_node_api`) | Early template, superseded by the working firmware. Never run on hardware as written. |
 | Android app (Flutter) | Steps 1 to 5 verified on a Galaxy A36. Source is in a separate project, see [docs/05-app.md](docs/05-app.md). |
+| Handover | Prototype handed to the supervisor (6 Nov 2026) |
 
 Details and the to-do list are in [docs/07-status-and-roadmap.md](docs/07-status-and-roadmap.md).
 
