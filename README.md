@@ -42,7 +42,6 @@ The node firmware with the real sensors is implemented and working, and the prot
 | Enclosure, LCD, 2 buttons, buzzer, power | Built |
 | Real-sensor node firmware | Implemented and working (reported 6 Nov 2026). Source to be added to this repo. |
 | Simulated node firmware (`soil_node_sim`) | Works on the board. Kept for app development and demos. |
-| Real-sensor template (`soil_node_api`) | Early template, superseded by the working firmware. Never run on hardware as written. |
 | Android app (Flutter) | Steps 1 to 5 verified on a Galaxy A36. Source is in a separate project, see [docs/05-app.md](docs/05-app.md). |
 | Handover | Prototype handed to the supervisor (6 Nov 2026) |
 
@@ -52,7 +51,7 @@ Details and the to-do list are in [docs/07-status-and-roadmap.md](docs/07-status
 
 ```
 firmware/soil_node_sim/    Simulated node: fake sensor values, real Wi-Fi, API, LCD, buttons, buzzer
-firmware/soil_node_api/    Real-sensor firmware template (Modbus RS485), not yet tested
+firmware/soil_node_api/    Early real-sensor template (Modbus RS485), superseded by the working firmware
 cad/                       SolidWorks enclosure files (assembly and parts), see cad/README.md
 tools/mock_esp_server.py   PC mock of the node API for app development
 docs/                      Hardware, wiring, firmware, API contract, app, testing, status
